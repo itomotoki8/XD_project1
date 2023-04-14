@@ -38,5 +38,5 @@ $(".nav_item a").on("click",() => {
     $(".header_nav").fadeOut(300);
     $(".burger_btn").toggleClass("cross");
     $("body").toggleClass("noscroll");
-})
+});
 
