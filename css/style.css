@@ -2,6 +2,9 @@
 /* -------------------------- */
 /* base */
 /* -------------------------- */
+ul {
+    list-style: none;
+}
 html {
     font-size: 62.5%;
 }
@@ -219,18 +222,22 @@ img {
 /* -------------------------- */
 .service_list {
     display: flex;
+    list-style: none;
 }
 .service_item {
     width: 33.3%;
 }
 .service_item.service1 {
     background-image: url(../img/service-img01@2x.jpg);
+    background-size: cover;
 }
 .service_item.service2 {
     background-image: url(../img/service-img02@2x.jpg);
+    background-size: cover;
 }
 .service_item.service3 {
     background-image: url(../img/sevice-img03@2x.jpg);
+    background-size: cover;
 }
 .service_item a {
     display: block;
