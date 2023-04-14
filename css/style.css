@@ -156,8 +156,8 @@ img {
 }
 .fv ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
 }
 .main_copy {
     position: absolute;
