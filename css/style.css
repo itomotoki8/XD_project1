@@ -20,8 +20,9 @@ time, mark, audio, video {
   vertical-align:baseline;
   background:transparent;
 }
+
 ul {
-    list-style: none;
+    list-style-type: none;
 }
 
 /* -------------------------- */
@@ -147,6 +148,7 @@ img {
 }
 .nav_list {
     display: flex;
+    list-style-type: none;
 }
 .nav_item {
     margin-right: 30px;
