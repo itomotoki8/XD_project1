@@ -21,8 +21,9 @@ time, mark, audio, video {
   background:transparent;
 }
 
-ul {
+ul,li {
     list-style-type: none;
+    list-style: none;
 }
 
 /* -------------------------- */
@@ -148,7 +149,6 @@ img {
 }
 .nav_list {
     display: flex;
-    list-style-type: none;
 }
 .nav_item {
     margin-right: 30px;
