@@ -20,6 +20,7 @@ time, mark, audio, video {
   vertical-align:baseline;
   background:transparent;
 }
+
 /* -------------------------- */
 /* base */
 /* -------------------------- */
@@ -167,6 +168,9 @@ img {
     position: relative;
     background-size: cover;
     background-position: center;
+}
+.fv ul {
+    list-style: none;
 }
 .fv img {
     height: 100vh;
